@@ -10,7 +10,10 @@ import background from './IMG/tetem.jpg';
 const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
-  background: url(${background}) fixed center;
+  background: url(${background});
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 100vh;
   width: 100%;
 `;
@@ -24,6 +27,10 @@ const ContentContainer = styled.div`
   a {
     text-decoration: none;
     margin: 2% .5% .3% .5%;
+
+    &:visited {
+      color: black;
+    }
   }
 `;
 
@@ -34,11 +41,13 @@ const SearchInput = styled.input`
   position: fixed;
   color: royalblue;
   border: 2px solid royalblue;
-  height: 3vh;
+  font-size: 2rem;
+  height: 2.5em;
   letter-spacing: 1px;
   border-radius: 5px;
 
   &::placeholder {
+    font-size: 2rem;
     color: royalblue; 
     letter-spacing: .5px;
   } 

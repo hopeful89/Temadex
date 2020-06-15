@@ -5,8 +5,8 @@ const CardContainer = styled.div`
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    height: 100%;
-    width: 100%;
+    height: 16em;
+    width: 16em;
     /* box-shadow: 5px 5px rgba(175, 175, 125, .4); */
     background: cadetblue;
     background: rgba(76, 234, 231, .7);
@@ -43,9 +43,11 @@ const CardContainer = styled.div`
     )};
 
 
-    span {
-        /* color: white; */
+    span  {
+        color: black;
+        font-size: 1.5rem;
         margin: 1%;
+
     }
 `;
 
