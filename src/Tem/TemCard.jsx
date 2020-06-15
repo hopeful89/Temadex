@@ -5,8 +5,8 @@ const CardContainer = styled.div`
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    height: 150px;
-    width: 150px;
+    height: 100%;
+    width: 100%;
     /* box-shadow: 5px 5px rgba(175, 175, 125, .4); */
     background: cadetblue;
     background: rgba(76, 234, 231, .7);
@@ -56,20 +56,20 @@ const CardDescription = styled.div`
 
 `;
 
-const CardDescriptionDiv = styled.div`
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    padding: 1%;
-    line-height: 1.5;
-    color: white;
-    font-size: 1.5rem;
+// const CardDescriptionDiv = styled.div`
+//     display: flex;
+//     flex-direction: column;
+//     width: 70%;
+//     padding: 1%;
+//     line-height: 1.5;
+//     color: white;
+//     font-size: 1.5rem;
 
-    p {
-        font-size: 2rem;
-        padding: 0 0 1% 0;
-    }
-`;
+//     p {
+//         font-size: 2rem;
+//         padding: 0 0 1% 0;
+//     }
+// `;
 
 const CardHeading = styled.h3`
     display: flex;
